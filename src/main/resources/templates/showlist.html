@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>显示user列表</title>
+</head>
+<body>
+    <!--<span th:text="${lists.get(1).getName()}">未知</span>-->
+    <tr th:each="user : ${lists}">
+        <td th:text="${user.name}">Onions</td>
+        <td th:text="${user.age}">2.41</td>
+    </tr>
+</body>
+</html>
