@@ -1,7 +1,7 @@
 package com.lbl.springboot.pojo;
 
 /**
- * @author benli n
+ * @author benli n2
  * @date 2019/2/24 19:04
  */
 public class User {
